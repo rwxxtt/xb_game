@@ -1,0 +1,17 @@
+{application, game, [
+		{description, "game"},
+		{vsn, "0.0.1"},
+		{registered, []},
+		{applications,
+				[
+						kernel,
+						stdlib,
+						mysql,
+						poolboy,
+						mysql_poolboy
+				]
+		},
+		{env, []},
+		{mod, {game_app, []}}
+
+]}.
